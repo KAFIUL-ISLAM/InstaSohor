@@ -71,10 +71,13 @@
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">JavaScript is an interpreted programming language. so, It doesn't need to be compiled into binary code for execution.
-                    When a JavaScript file has to be loaded, JavaScript engine break down the code line by line (top to bottom) and convert
-                    into machine code. But it doesn't run immediately. HTML and CSS DOM create the webpage first. Then JavaScript engine run
-                    the JavaScript file.</div>
+                    <div class="accordion-body">JavaScript is an interpreted programming language. so, It doesn't need
+                        to be compiled into binary code for execution.
+                        When a JavaScript file has to be loaded, JavaScript engine break down the code line by line (top
+                        to bottom) and convert
+                        into machine code. But it doesn't run immediately. HTML and CSS DOM create the webpage first.
+                        Then JavaScript engine run
+                        the JavaScript file.</div>
                 </div>
             </div>
             <div class="accordion-item">
@@ -86,13 +89,38 @@
                 </h2>
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">JavaScript can do just one thing at a time. so, it creates a Task Queue for execute all the tasks. at first, tasks get
-                    pushed into the queue, Web API's execute tasks , then go back to the call stack. When the stack is clear, <code>Event loop</code> check queue for available callbacks. It pushed callbacks to the call stack and waits for execution.</div>
+                    <div class="accordion-body">JavaScript can do just one thing at a time. so, it creates a Task Queue
+                        for execute all the tasks. at first, tasks get
+                        pushed into the queue, Web API's execute tasks , then go back to the call stack. When the stack
+                        is clear, <code>Event loop</code> check queue for available callbacks. It pushed callbacks to
+                        the call stack and waits for execution.</div>
                 </div>
             </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        What are the difference between LocalStorage and SessionStorage?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><code>Local storage</code> has much greater storage capacity. It reduce
+                        traffic between client and server as the data is not sent
+                        back to the server on every HTTP request. Data remains on the local storage until user delete
+                        it. Saved data available
+                        for all current and future visit to the site.
+                        <br>
+                        <br>
+                        <code>Session storage</code> is only available for current window. once the window is closed,
+                        the data from session storage has been deleted.
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="bg-light text-center p-5">
-<small>All rights reserved&copy;</small>
+        <small>All rights reserved&copy;</small>
     </footer>
 
     <!-- add javascript  file  -->
